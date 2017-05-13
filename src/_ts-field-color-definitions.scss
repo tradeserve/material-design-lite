@@ -1,0 +1,215 @@
+
+// Tradeserve Field Palettes
+
+$palette-navy:
+"87, 105, 123"
+"76, 92, 108"
+"66, 79, 93"
+"55, 66, 78"
+"45, 54, 63"
+"34, 41, 48"
+"23, 28, 33"
+"13, 15, 18"
+"2, 3, 3"
+"0, 0, 0"
+"97, 117, 138"
+"109, 130, 152"
+"124, 143, 162"
+"0, 0, 0"
+
+
+$palette-navy-50: nth($palette-navy, 1);
+$palette-navy-100: nth($palette-navy, 2);
+$palette-navy-200: nth($palette-navy, 3);
+$palette-navy-300: nth($palette-navy, 4);
+$palette-navy-400: nth($palette-navy, 5);
+$palette-navy-500: nth($palette-navy, 6);
+$palette-navy-600: nth($palette-navy, 7);
+$palette-navy-700: nth($palette-navy, 8);
+$palette-navy-800: nth($palette-navy, 9);
+$palette-navy-900: nth($palette-navy, 10);
+$palette-navy-A100: nth($palette-navy, 11);
+$palette-navy-A200: nth($palette-navy, 12);
+$palette-navy-A400: nth($palette-navy, 13);
+$palette-navy-A700: nth($palette-navy, 14);
+
+
+
+$palette-verde:
+"46, 71, 31"
+"57, 89, 39"
+"68, 107, 46"
+"80, 125, 54"
+"91, 142, 62"
+"103, 160, 69"
+"128, 186, 95"
+"142, 193, 113"
+"156, 201, 130"
+"170, 209, 148"
+"128, 186, 95"
+"114, 178, 77"
+"103, 160, 69"
+"185, 216, 166"
+
+
+
+$palette-verde-50: nth($palette-verde, 1);
+$palette-verde-100: nth($palette-verde, 2);
+$palette-verde-200: nth($palette-verde, 3);
+$palette-verde-300: nth($palette-verde, 4);
+$palette-verde-400: nth($palette-verde, 5);
+$palette-verde-500: nth($palette-verde, 6);
+$palette-verde-600: nth($palette-verde, 7);
+$palette-verde-700: nth($palette-verde, 8);
+$palette-verde-800: nth($palette-verde, 9);
+$palette-verde-900: nth($palette-verde, 10);
+$palette-verde-A100: nth($palette-verde, 11);
+$palette-verde-A200: nth($palette-verde, 12);
+$palette-verde-A400: nth($palette-verde, 13);
+$palette-verde-A700: nth($palette-verde, 14);
+
+
+
+$palette-ochre:
+"236, 127, 141"
+"233, 105, 121"
+"230, 83, 101"
+"227, 60, 81"
+"223, 38, 61"
+"206, 30, 52"
+"184, 27, 46"
+"161, 24, 41"
+"139, 20, 35"
+"117, 17, 30"
+"240, 149, 161"
+"243, 172, 181"
+"246, 194, 200"
+"95, 14, 24, 1"
+
+
+$palette-red-50: nth($palette-red, 1);
+$palette-red-100: nth($palette-red, 2);
+$palette-red-200: nth($palette-red, 3);
+$palette-red-300: nth($palette-red, 4);
+$palette-red-400: nth($palette-red, 5);
+$palette-red-500: nth($palette-red, 6);
+$palette-red-600: nth($palette-red, 7);
+$palette-red-700: nth($palette-red, 8);
+$palette-red-800: nth($palette-red, 9);
+$palette-red-900: nth($palette-red, 10);
+$palette-red-A100: nth($palette-red, 11);
+$palette-red-A200: nth($palette-red, 12);
+$palette-red-A400: nth($palette-red, 13);
+$palette-red-A700: nth($palette-red, 14);
+
+
+$palette-gris:
+"138, 138, 138"
+"125, 125, 125"
+"112, 112, 112"
+"99, 99, 99"
+"87, 87, 87"
+"74, 74, 74"
+"61, 61, 61"
+"48, 48, 48"
+"36, 36, 36"
+"23, 23, 23"
+"150, 150, 150"
+"163, 163, 163"
+"176, 176, 176"
+"10, 10, 10"
+
+
+
+$palette-grey-50: nth($palette-grey, 1);
+$palette-grey-100: nth($palette-grey, 2);
+$palette-grey-200: nth($palette-grey, 3);
+$palette-grey-300: nth($palette-grey, 4);
+$palette-grey-400: nth($palette-grey, 5);
+$palette-grey-500: nth($palette-grey, 6);
+$palette-grey-600: nth($palette-grey, 7);
+$palette-grey-700: nth($palette-grey, 8);
+$palette-grey-800: nth($palette-grey, 9);
+$palette-grey-900: nth($palette-grey, 10);
+$palette-grey-A100: nth($palette-grey, 11);
+$palette-grey-A200: nth($palette-grey, 12);
+$palette-grey-A400: nth($palette-grey, 13);
+$palette-grey-A700: nth($palette-grey, 14);
+
+/*
+
+generated this palette at https://angular-md-color.com/#/
+
+var customPrimary = { //navy
+        '50': '#57697b',
+        '100': '#4c5c6c',
+        '200': '#424f5d',
+        '300': '#37424e',
+        '400': '#2d363f',
+        '500': '#222930',
+        '600': '#171c21',
+        '700': '#0d0f12',
+        '800': '#020303',
+        '900': '#000000',
+        'A100': '#61758a',
+        'A200': '#6d8298',
+        'A400': '#7c8fa2',
+        'A700': '#000000'
+    };
+
+
+    var customAccent = {//green
+        '50': '#2e471f',
+        '100': '#395927',
+        '200': '#446b2e',
+        '300': '#507d36',
+        '400': '#5b8e3e',
+        '500': '#67a045',
+        '600': '#80ba5f',
+        '700': '#8ec171',
+        '800': '#9cc982',
+        '900': '#aad194',
+        'A100': '#80ba5f',
+        'A200': '#72B24d',
+        'A400': '#67a045',
+        'A700': '#b9d8a6'
+    };
+
+    
+
+    var customWarn = {//red
+        '50': '#ec7f8d',
+        '100': '#e96979',
+        '200': '#e65365',
+        '300': '#e33c51',
+        '400': '#df263d',
+        '500': '#ce1e34',
+        '600': '#b81b2e',
+        '700': '#a11829',
+        '800': '#8b1423',
+        '900': '#75111e',
+        'A100': '#f095a1',
+        'A200': '#f3acb5',
+        'A400': '#f6c2c8',
+        'A700': '#5f0e18'
+    };
+
+
+    var customBackground = {//gray
+        '50': '#8a8a8a',
+        '100': '#7d7d7d',
+        '200': '#707070',
+        '300': '#636363',
+        '400': '#575757',
+        '500': '#4a4a4a',
+        '600': '#3d3d3d',
+        '700': '#303030',
+        '800': '#242424',
+        '900': '#171717',
+        'A100': '#969696',
+        'A200': '#a3a3a3',
+        'A400': '#b0b0b0',
+        'A700': '#0a0a0a'
+    };
+
+*/
