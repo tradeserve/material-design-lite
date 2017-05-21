@@ -1,7 +1,7 @@
 
 // Tradeserve Field Palettes
 
-$palette-navy:
+$palette-blue:
 "87, 105, 123"
 "76, 92, 108"
 "66, 79, 93"
@@ -18,24 +18,23 @@ $palette-navy:
 "0, 0, 0";
 
 
-$palette-navy-50: nth($palette-navy, 1);
-$palette-navy-100: nth($palette-navy, 2);
-$palette-navy-200: nth($palette-navy, 3);
-$palette-navy-300: nth($palette-navy, 4);
-$palette-navy-400: nth($palette-navy, 5);
-$palette-navy-500: nth($palette-navy, 6);
-$palette-navy-600: nth($palette-navy, 7);
-$palette-navy-700: nth($palette-navy, 8);
-$palette-navy-800: nth($palette-navy, 9);
-$palette-navy-900: nth($palette-navy, 10);
-$palette-navy-A100: nth($palette-navy, 11);
-$palette-navy-A200: nth($palette-navy, 12);
-$palette-navy-A400: nth($palette-navy, 13);
-$palette-navy-A700: nth($palette-navy, 14);
+$palette-blue-50: nth($palette-blue, 1);
+$palette-blue-100: nth($palette-blue, 2);
+$palette-blue-200: nth($palette-blue, 3);
+$palette-blue-300: nth($palette-blue, 4);
+$palette-blue-400: nth($palette-blue, 5);
+$palette-blue-500: nth($palette-blue, 6);
+$palette-blue-600: nth($palette-blue, 7);
+$palette-blue-700: nth($palette-blue, 8);
+$palette-blue-800: nth($palette-blue, 9);
+$palette-blue-900: nth($palette-blue, 10);
+$palette-blue-A100: nth($palette-blue, 11);
+$palette-blue-A200: nth($palette-blue, 12);
+$palette-blue-A400: nth($palette-blue, 13);
+$palette-blue-A700: nth($palette-blue, 14);
 
 
-
-$palette-verde:
+$palette-green:
 "46, 71, 31"
 "57, 89, 39"
 "68, 107, 46"
@@ -53,20 +52,20 @@ $palette-verde:
 
 
 
-$palette-verde-50: nth($palette-verde, 1);
-$palette-verde-100: nth($palette-verde, 2);
-$palette-verde-200: nth($palette-verde, 3);
-$palette-verde-300: nth($palette-verde, 4);
-$palette-verde-400: nth($palette-verde, 5);
-$palette-verde-500: nth($palette-verde, 6);
-$palette-verde-600: nth($palette-verde, 7);
-$palette-verde-700: nth($palette-verde, 8);
-$palette-verde-800: nth($palette-verde, 9);
-$palette-verde-900: nth($palette-verde, 10);
-$palette-verde-A100: nth($palette-verde, 11);
-$palette-verde-A200: nth($palette-verde, 12);
-$palette-verde-A400: nth($palette-verde, 13);
-$palette-verde-A700: nth($palette-verde, 14);
+$palette-green-50: nth($palette-green, 1);
+$palette-green-100: nth($palette-green, 2);
+$palette-green-200: nth($palette-green, 3);
+$palette-green-300: nth($palette-green, 4);
+$palette-green-400: nth($palette-green, 5);
+$palette-green-500: nth($palette-green, 6);
+$palette-green-600: nth($palette-green, 7);
+$palette-green-700: nth($palette-green, 8);
+$palette-green-800: nth($palette-green, 9);
+$palette-green-900: nth($palette-green, 10);
+$palette-green-A100: nth($palette-green, 11);
+$palette-green-A200: nth($palette-green, 12);
+$palette-green-A400: nth($palette-green, 13);
+$palette-green-A700: nth($palette-green, 14);
 
 
 
@@ -140,7 +139,7 @@ $palette-grey-A700: nth($palette-grey, 14);
 
 generated this palette at https://angular-md-color.com/#/
 
-var customPrimary = { //navy
+var customPrimary = { //blue
         '50': '#57697b',
         '100': '#4c5c6c',
         '200': '#424f5d',
